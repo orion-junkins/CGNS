@@ -254,46 +254,13 @@
             We consistently improve both noise and temporal covariance across scenes with only a
             small increase in cost. In Emerald Square, where geometric complexity makes neighbor
             selection especially important, we reduce SMAPE by 29% and temporal covariance by 49%.
-            In simpler scenes, reductions are 5.8–13.7% in SMAPE and 22–31% in temporal
-            covariance, all with 1.3–7.4% total runtime overhead.
+            In simpler scenes, reductions are 6–14% in SMAPE and 22–31% in temporal
+            covariance, all with 2–5% total runtime overhead.
           </p>
         </div>
       </div>
     </div>
     <!--/ Results. -->
-
-    <!-- Related Links. -->
-    <div class="columns is-centered">
-      <div class="column is-full-width">
-        <h2 class="title is-3">Related Links</h2>
-
-        <div class="content has-text-justified">
-          <p>
-            Our work builds on and relates to several key papers in ReSTIR and real-time rendering:
-          </p>
-          <p>
-            <a href="https://research.nvidia.com/publication/2020-07_spatiotemporal-reservoir-resampling-real-time-ray-tracing-dynamic-direct">ReSTIR DI</a>
-            (Bitterli et al. 2020) introduces reservoir-based spatiotemporal importance resampling
-            for direct illumination. Our method replaces its spatial neighbor selection.
-          </p>
-          <p>
-            <a href="https://research.nvidia.com/publication/2021-06_restir-gi-path-resampling-real-time-path-tracing">ReSTIR GI</a>
-            (Ouyang et al. 2021) extends ReSTIR to global illumination via virtual point lights.
-          </p>
-          <p>
-            <a href="https://research.nvidia.com/publication/2022-07_generalized-resampled-importance-sampling-foundations-restir">GRIS / ReSTIR PT</a>
-            (Lin et al. 2022) provides mathematical foundations for ReSTIR and introduces path
-            tracing with shift mappings.
-          </p>
-          <p>
-            <a href="#">Area ReSTIR</a> (Zhang et al. 2024) and
-            <a href="#">Reservoir Splatting</a> (Liu et al. 2025) stabilize temporal reuse near
-            high-frequency geometry. We combine our method with both in our experiments.
-          </p>
-        </div>
-      </div>
-    </div>
-    <!--/ Related Links. -->
 
   </div>
 </section>
